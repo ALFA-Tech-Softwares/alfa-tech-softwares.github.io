@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <!-- Identificação semântica da marca para leitores de tela -->
   <title id="title">ALFA Engenharia de Software</title>
   <desc id="desc">Símbolo moderno da ALFA com monograma geométrico e acabamento limpo.</desc>
   <defs>
+    <!-- Gradientes principais usados na superfície e nos traços da marca -->
     <linearGradient id="surface" x1="16" y1="8" x2="112" y2="120" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#091322" />
       <stop offset="58%" stop-color="#10203a" />
@@ -16,10 +18,12 @@
       <stop offset="100%" stop-color="#ffc171" />
     </linearGradient>
   </defs>
+  <!-- Base do ícone com profundidade e brilho suave -->
   <rect width="128" height="128" rx="34" fill="url(#surface)" />
   <circle cx="28" cy="28" r="20" fill="#2ee6a6" fill-opacity="0.12" />
   <circle cx="102" cy="100" r="18" fill="#ff8c42" fill-opacity="0.1" />
   <rect x="13" y="13" width="102" height="102" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.08" />
+  <!-- Monograma principal da letra A com travessa de apoio -->
   <path
     d="M28 94 52.5 36.5"
     fill="none"

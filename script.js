@@ -936,7 +936,7 @@ function renderServices() {
               class="service-button"
               href="${buildWhatsAppUrl(message)}"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               aria-label="${translations[language].serviceButton}: ${title}"
             >
               ${translations[language].serviceButton}
@@ -1282,7 +1282,7 @@ function updateTranslatableContent() {
 }
 
 // Persiste o tema ativo e sincroniza a cor da interface do navegador.
-function applyTheme() {
+function applyTheme(shouldUpdateContent = true) {
   document.body.dataset.theme = state.theme;
   localStorage.setItem("alfa-theme", state.theme);
 
@@ -1290,7 +1290,9 @@ function applyTheme() {
     themeColorMeta.setAttribute("content", state.theme === "dark" ? "#0c1220" : "#eff3f7");
   }
 
-  updateTranslatableContent();
+  if (shouldUpdateContent) {
+    updateTranslatableContent();
+  }
 }
 
 // Persiste o idioma ativo e atualiza o conteúdo traduzível.
@@ -1446,7 +1448,14 @@ function registerPriorityPlanner() {
     }
 
     moveToScenario(nextButton.dataset.priorityTab);
-    nextButton.focus();
+
+    const refreshedButton = priorityTabs.querySelector(
+      `[data-priority-tab="${nextButton.dataset.priorityTab}"]`
+    );
+
+    if (refreshedButton) {
+      refreshedButton.focus();
+    }
   });
 }
 
@@ -1498,7 +1507,7 @@ if (themeToggle) {
 }
 
 // Inicialização da página.
-applyTheme();
+applyTheme(false);
 applyLanguage();
 unregisterLegacyServiceWorkers();
 registerBriefForm();
