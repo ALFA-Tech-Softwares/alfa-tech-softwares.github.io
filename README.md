@@ -1,6 +1,6 @@
-# ALFA Engenharia de Software
+# ALFA TECH
 
-Site institucional da ALFA Engenharia de Software, criado para apresentar serviços, gerar contato comercial e concentrar pedidos de orçamento pelo WhatsApp.
+Site institucional da ALFA TECH, criado para apresentar serviços, gerar contato comercial e concentrar pedidos de orçamento pelo WhatsApp.
 
 ## Projeto online
 https://agenciaalfaassessoria.netlify.app/
@@ -16,7 +16,7 @@ O site foi desenvolvido como uma página estática, bilíngue e responsiva, com 
 - Botões de WhatsApp com mensagem geral e mensagens por serviço
 - Briefing rápido que monta uma mensagem estruturada
 - Layout responsivo para desktop, tablet e celular
-- Identidade visual própria da marca ALFA
+- Identidade visual própria da marca ALFA TECH
 
 ## Tecnologias utilizadas
 
