@@ -1,6 +1,6 @@
-# ALFA Tech Systems
+# ALFA Tech Softwares
 
-Site institucional da ALFA Tech Systems, criado para apresentar serviços, gerar contato comercial e concentrar pedidos de orçamento pelo WhatsApp.
+Site institucional da ALFA Tech Softwares, criado para apresentar serviços, gerar contato comercial e concentrar pedidos de orçamento pelo WhatsApp.
 
 ## Projeto online
 https://alfatechstudio.github.io/
@@ -16,7 +16,7 @@ O site foi desenvolvido como uma página estática, bilíngue e responsiva, com 
 - Botões de WhatsApp com mensagem geral e mensagens por serviço
 - Briefing rápido que monta uma mensagem estruturada
 - Layout responsivo para desktop, tablet e celular
-- Identidade visual própria da marca ALFA Tech Systems
+- Identidade visual própria da marca ALFA Tech Softwares
 
 ## Tecnologias utilizadas
 
