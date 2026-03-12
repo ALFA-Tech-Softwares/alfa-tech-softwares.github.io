@@ -5,10 +5,10 @@ const WHATSAPP_NUMBER = "5511976102377";
 // Todo o conteúdo traduzível da interface fica centralizado aqui para manter PT e EN alinhados.
 const translations = {
   pt: {
-    pageTitle: "ALFA TECH | Produto Digital, Sistemas e Automação Sob Medida",
+    pageTitle: "ALFA TECH Studio | Produto Digital, Sistemas e Automação Sob Medida",
     pageDescription:
-      "ALFA TECH projeta sites, plataformas, apps, automações e integrações com foco em performance, acessibilidade, documentação e escala.",
-    brandName: "ALFA TECH",
+      "ALFA TECH Studio projeta sites, plataformas, apps, automações e integrações com foco em performance, acessibilidade, documentação e escala.",
+    brandName: "ALFA TECH Studio",
     brandTag: "Produto digital, automação e escala",
     themeButtonLight: "Modo claro",
     themeButtonDark: "Modo escuro",
@@ -77,7 +77,7 @@ const translations = {
     stackTitle: "Stack organizada por problema, não por modismo",
     stackText:
       "A tecnologia entra como meio. O que orienta a escolha é manutenção, clareza arquitetural, integração e capacidade de crescimento.",
-    aboutEyebrow: "ALFA TECH",
+    aboutEyebrow: "ALFA TECH Studio",
     aboutTitle: "Parceiro técnico para empresas, produtos e iniciativas educacionais",
     aboutText:
       "Atuamos em lançamentos, modernização, automação e evolução contínua, mantendo clareza de arquitetura, documentação e transferência de conhecimento.",
@@ -106,12 +106,12 @@ const translations = {
       "O formulário prepara a mensagem no idioma atual com os campos essenciais para uma análise inicial mais rápida.",
     briefSubmit: "Enviar briefing no WhatsApp",
     briefNamePlaceholder: "Ex.: Gabriel Navarro",
-    briefCompanyPlaceholder: "Ex.: ALFA TECH",
+    briefCompanyPlaceholder: "Ex.: ALFA TECH Studio",
     briefSummaryPlaceholder:
       "Descreva objetivo, público, funcionalidades, integrações e qualquer restrição importante.",
     briefServicePlaceholder: "Selecione a frente principal do projeto",
     briefMessageIntro:
-      "Olá, quero solicitar uma análise e um orçamento com a ALFA TECH. Segue um briefing inicial do projeto:",
+      "Olá, quero solicitar uma análise e um orçamento com a ALFA TECH Studio. Segue um briefing inicial do projeto:",
     briefMessageName: "Nome",
     briefMessageCompany: "Empresa",
     briefMessageService: "Tipo de projeto",
@@ -123,7 +123,7 @@ const translations = {
     ctaButton: "Solicitar orçamento",
     floatingWhatsApp: "WhatsApp",
     quoteMessage:
-      "Olá, quero solicitar uma análise inicial e um orçamento para um projeto com a ALFA TECH.",
+      "Olá, quero solicitar uma análise inicial e um orçamento para um projeto com a ALFA TECH Studio.",
     serviceQuoteMessage:
       "Olá, quero solicitar uma análise inicial e um orçamento para o serviço de {service}.",
     languageLabel: "EN",
@@ -131,10 +131,10 @@ const translations = {
     switchLanguageAria: "Switch language to English"
   },
   en: {
-    pageTitle: "ALFA TECH | Digital Products, Systems, and Automation",
+    pageTitle: "ALFA TECH Studio | Digital Products, Systems, and Automation",
     pageDescription:
-      "ALFA TECH designs websites, platforms, apps, automations, and integrations with focus on performance, accessibility, documentation, and scale.",
-    brandName: "ALFA TECH",
+      "ALFA TECH Studio designs websites, platforms, apps, automations, and integrations with focus on performance, accessibility, documentation, and scale.",
+    brandName: "ALFA TECH Studio",
     brandTag: "Digital products, automation, and scale",
     themeButtonLight: "Light mode",
     themeButtonDark: "Dark mode",
@@ -203,7 +203,7 @@ const translations = {
     stackTitle: "A stack organized around the problem, not around hype",
     stackText:
       "Technology is the medium. The main criteria are maintainability, architectural clarity, integration, and room to grow.",
-    aboutEyebrow: "ALFA TECH",
+    aboutEyebrow: "ALFA TECH Studio",
     aboutTitle: "A technical partner for companies, products, and educational initiatives",
     aboutText:
       "We work across launches, modernization, automation, and continuous evolution while keeping architecture, documentation, and knowledge transfer clear.",
@@ -237,7 +237,7 @@ const translations = {
       "Describe goals, users, features, integrations, and any important constraints.",
     briefServicePlaceholder: "Select the main project workstream",
     briefMessageIntro:
-      "Hello, I would like to request an initial assessment and a quote from ALFA TECH. Here is a first project brief:",
+      "Hello, I would like to request an initial assessment and a quote from ALFA TECH Studio. Here is a first project brief:",
     briefMessageName: "Name",
     briefMessageCompany: "Company",
     briefMessageService: "Project type",
@@ -249,7 +249,7 @@ const translations = {
     ctaButton: "Request a quote",
     floatingWhatsApp: "WhatsApp",
     quoteMessage:
-      "Hello, I would like to request an initial assessment and a quote for a project with ALFA TECH.",
+      "Hello, I would like to request an initial assessment and a quote for a project with ALFA TECH Studio.",
     serviceQuoteMessage:
       "Hello, I would like to request an initial assessment and a quote for the {service} service.",
     languageLabel: "PT",
